@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-image: url('../g2.gif');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+    width: 50vw;
+    /* background-color: azure; */
+    background-image: url('../s1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courgette', cursive;
+    font-size: larger;
+    margin-left: 760px;
+    position: relative;
+}
+
+.c1{
+    background-color: white;
+    /* background-image: url(); */
+    height: 50vh;
+    width: 30vw;
+    /* margin: 300px 200px 100px; */
+    /* padding-top: 300px; */
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+
+.c1 input{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    border-bottom: 3px solid burlywood;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px red;
+    width: 350px;
+    /* float: bottom right; */
+   
+}
